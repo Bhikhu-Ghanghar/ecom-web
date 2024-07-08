@@ -1,5 +1,9 @@
-// cart section
+function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('active');
+}
 
+// cart section
 const removeButtons = document.querySelectorAll('.remove-btn');
 removeButtons.forEach(button => {
     button.addEventListener('click', () => {
